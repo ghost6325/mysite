@@ -1,39 +1,52 @@
-<h1><a href="/emupedia-game-agar.io/">Agar.io</a></h1>
-<h1><a href="/emupedia-game-ascii-patrol/">ASCII PATROL</a></h1>
-<h1><a href="/emupedia-game-asciicker/">ASCIICKER (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-biolab-disaster/">Biolab Disaster</a></h1>
-<h1><a href="/emupedia-game-cookie-clicker/">Cookie Clicker</a></h1>
-<h1><a href="/emupedia-game-command-and-conquer1/">Command and Conquer (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-ra2/">Command and Conquer: Red Alert 2 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-dark-reign/">Dark Reign: The Future of War (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-diablo1/">Diablo 1 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-doom1/">Doom 1 (WASM)</a></h1>
-<h1><a href="/emupedia-game-doom1/asmjs/">Doom 1 (ASM.JS)</a></h1>
-<h1><a href="/emupedia-game-doom2/">Doom 2: Hell on Earth (WASM)</a></h1>
-<h1><a href="/emupedia-game-doom2/asmjs/">Doom 2: Hell on Earth (ASM.JS)</a></h1>
-<h1><a href="/emupedia-game-doom3/">Doom 3 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-dune2/">Dune 2 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-flappy-bird/">Flappy Bird</a></h1>
-<h1><a href="/emupedia-game-geometry-dash/">Geometry Dash</a></h1>
-<h1><a href="/emupedia-game-hexen2/">Hexen 2 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-half-life1/">Half-Life 1 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-lemmings1/">Lemmings 1 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-minesweeper/">Minesweeper</a></h1>
-<h1><a href="/emupedia-game-minecraft-classic/">Minecraft (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-pikachu-volleyball/">Pikachu Volleyball (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-prince/">Prince of Persia 1 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-raptor/">Raptor: Call of the Shadows (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-skifree/">SkiFree (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-street-fighter-alpha/">Street Fighter Alpha (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-super-blob-blaster/">Super Blob Blaster</a></h1>
-<h1><a href="/emupedia-game-tomb-raider/">Tomb Raider (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-openttd/">Transport Tycoon Deluxe (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-unreal-tournament/">Unreal Tournament (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-quake1/">Quake 1 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-quake2/">Quake 2 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-quake3/">Quake 3 Arena (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-wings2/">Wings 2.0 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-wolfenstein-3d/">Wolfenstein 3D</a></h1>
-<h1><a href="/emupedia-game-wolfenstein-3d-canvas/">Wolfenstein 3D (Canvas)</a></h1>
-<h1><a href="/emupedia-game-worms2/">Worms 2 (Work In Progress)</a></h1>
-<h1><a href="/emupedia-game-xcom1/">X-COM: UFO Defense (Work In Progress)</a></h1>
+<html>
+  <body>
+    <main>
+      <h1>CatPhotoApp</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats <em>love</em> lasagna.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input type="checkbox"> Loving
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
