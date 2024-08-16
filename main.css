@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.middle{
+    margin-left: 25%;
+}
+
+h1{
+    border-top-style:dotted;
+    border-top-color: green;
+    border-bottom-color: #33ff00;
+    border-bottom-style: dotted;
+    border-left-style: outset;
+    
+}
+
+.dis{
+    border-style: outset;
+    border-color: greenyellow;
+}
+
+.carpıcı{
+    font-size: 200%;
+    font-style: italic ;
+    background-color: rgb(0, 136, 255);
+}
